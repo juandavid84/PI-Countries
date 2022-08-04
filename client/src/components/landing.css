@@ -1,0 +1,40 @@
+ #global{
+    background-image: url("./PLANETA.jpeg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    /* z-index: 1; */
+    background-color: red;
+    width:100vw;
+    height:100vh;
+}
+
+ #imgl:hover{
+    transform:scale(110%)
+}
+
+#imgl{
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    width:60vh;
+    height:60vh;
+    z-index: 9;
+}
+
+#al{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 10;
+    
+}
+#h1l{
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    width:60vh;
+    height:60vh;
+    z-index: 10;
+    color:wheat;
+    font-weight: 900;
+} 

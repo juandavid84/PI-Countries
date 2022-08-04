@@ -21,18 +21,27 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    region: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    
     subregion: {
       type: DataTypes.STRING,
+      allowNull: true,
     },
     area: {
       type: DataTypes.INTEGER,
+      allowNull: true,
     },
     population: {
       type: DataTypes.INTEGER,
+      allowNull: true,
     },
+    continents:{
+      type: DataTypes.STRING,
+      defaultValue:"No tiene continentes",
+    }
+    // createdInDb:{
+    //   type:DataTypes.BOOLEAN,
+    //   allowNull:true,
+    //   defaultValue: true,
+    // },
   });
 };

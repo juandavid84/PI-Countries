@@ -1,0 +1,154 @@
+#activities{
+    display: flex;
+    width: 100vw;
+    height: 30%;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+          
+}
+#home{
+    position:absolute;
+    top:0%;
+    left:0%;
+    background-color: gray;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 1%;
+    color:black;
+    text-decoration: none;
+}
+
+#activities div{
+     margin-left: 2%;
+     margin-right: 2%;
+    width: 20%;
+    background-color: green;
+    margin-bottom: 5%;
+    height: 100%;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.summer{
+    background-image: url("verano.jpeg");
+    background-size: 100% 100%;
+}
+.spring{
+    background-image: url("primavera.jpeg");
+    background-size: 100% 100%;
+}
+.winter{
+    background-image: url("Invierno.jpeg");
+    background-size: 100% 100%;
+}
+.autumn{
+    background-image: url("otono.jpeg");
+    background-size: 100% 100%;
+}
+
+#activities div h1{
+    height: 30%;
+    font-size: larger;
+    background-color: grey;
+    width: 60%;
+    border-style: solid;
+    border-color: black;
+    border-width: 10%;
+    display:flex;
+    align-self: center;
+   
+    flex-direction: row;
+    justify-content: center;
+}
+
+#activities div h2{
+    height: 20%;
+    font-size: medium;
+    background-color: grey;
+    width: 60%;
+    border-style: solid;
+    border-color: black;
+    border-width: 10%;
+    display:flex;
+    align-self: center;
+   
+    flex-direction: row;
+    justify-content: center;
+}
+
+#country{
+    width: 50% ;
+    background-size: 100% 100%;
+    height: 60%;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+#country .countryh{
+    height: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: grey;
+    width: min-content;
+    border-style: solid;
+    border-color: black;
+    border-width: 10%;
+    display:flex;
+    align-self: center;
+   
+    flex-direction: row;
+    justify-content: center;
+}
+/* #countries div img{
+    width:90%;
+    align-self: center;
+    height: 200px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+} */
+
+/* #countries div .h{
+    width: 50%;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    border-width: 10%;
+    display:flex;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: larger;
+} */
+
+#globalcontainer{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./PLANETA.jpeg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    z-index: 1;
+    position:absolute;
+    top:0%;
+    left:0%;
+    overflow: scroll;
+}
